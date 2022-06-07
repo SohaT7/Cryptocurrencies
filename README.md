@@ -9,32 +9,32 @@ This analysis ventures to report the different cryptocurrencies present on the t
 ## Results
 ### (1) Preprocessing the Data for PCA
 
-![crypto_df]()
+![crypto_df](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/crypto_df.png)
 
 A crypto_df is created by removing the columns not needed and null values in the data. The features are then standardized before running PCA.
 
 ### (2) Reducing Data Dimensions Using PCA
 The dimensions are reduced to only 3: "PC 1", "PC 2", and "PC 3", as shown below:
 
-![pcs_df]()
+![pcs_df](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/pcs_df.png)
 
 ### (3) Clustering Cryptocurrencies Using K-Means
 An elbow curve is created in order to determine the best value for K, by iterating on k values in range(1,11) (i.e. from 1 to 10). The best K value seems to be 4 since there is a sharper horizontal slant to the slope after this value. The K-means algorithm is then run to predict the K clusters for the cryptocurrencies. A K value of 4 means that the output will have 4 clusters wherein the cryptocurrencies will have been clustered. 
 
-![elbow_curve]()
+![elbow_curve](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/elbow_curve.png)
 
 Another table is created by concatenating the crypto_df and pcs_df:
 
-![clustered_df]()
+![clustered_df](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/clustered_df.png)
 
 ### (4) Visualizing Cryptocurrencies Results
 A 3d-scatter plot is created to visualize the distinct groups that correspond to the three principal components. Dimesionlaity reduction results in 3 principal components. 
 
-![3d scatter plot]()
+![3d scatter plot](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/3d_scatter_plot.png)
 
 A 2d-scatter plot is created to visualize all the currently tradable cryptocurrencies. Dimesionlaity reduction results in 2 principal components. 
 
-![2d scatter plot]()
+![2d scatter plot](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/2d_scatter_plot.png)
 
 In both these scatter plots, the outlier (i.e. class 2) is clearly visible.
 
