@@ -1,10 +1,13 @@
 # Cryptocurrencies
 ## Overview of the Analysis
-### Purpose
-The purpose of this analysis was to aid our clients at Accountability Accounting in deciding if, and how, they will be breaking into the cryptocurrency market. 
+### Purpose:
+The purpose of this analysis is to aid clients in deciding if, and how, they will be breaking into the cryptocurrency market. It reports on the tradable cryptocurrencies and classifies them into viable groups, which the clients can then invest in. 
 
-### Description
-This analysis ventures to report the different cryptocurrencies present on the trading market, and how these can be grouped to create a classification system for the new investment by the clients. Since we are taking in raw data and do not know the outcomes, we apply an unsupervised machine learning model on the input data. This involved preprocessing the data, dimensionality reduction using PCA (Principal Components Analysis), clustering using K-Means algorithm, and lastly visualizing the cryptocurrencies results.
+### Description:
+This analysis ventures to report the different cryptocurrencies present on the trading market, and how these can be grouped to create a classification system for a new investment by the clients. Since we are taking in raw data and do not know the outcomes, we apply an unsupervised machine learning model on the input data. The data is preprocessed, and then undergoes dimensionality reduction using PCA (Principal Components Analysis), and clustering using the K-Means algorithm. Lastly, the cryptocurrencies results are visualized.
+
+### Tools Used:
+Python
 
 ## Results
 ### (1) Preprocessing the Data for PCA
@@ -41,4 +44,6 @@ In both these scatter plots, the outlier (i.e. class 2) is clearly visible.
 ## Summary
 There are 532 tradable cryptocurrencies, which we classified based on the similarities in their features. Each resultant group can be analyzed further to determine how viable investing in each group of cryptocurrencies will prove for the clients. 
 
+## Contact Information
+Email: st.sohatariq@gmail.com
 
