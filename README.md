@@ -6,8 +6,8 @@
     - [Tools Used](#tools-used)
     - [Description](#description)
 - [Results](#results)
-    - [Preprocessing the Data for PCA](#preprocessing-the-data-for-pca)
-    - [Reducing Data Dimensions Using PCA](#reducing-data-dimensions-using-pca)
+    - [Preprocessing the Data for Principal Components Analysis (PCA)](#preprocessing-the-data-for-Principal-Components-Analysis-(PCA))
+    - [Reducing Data Dimensions Using Principal Components Analysis (PCA)](#reducing-data-dimensions-using-Principal-Components-Analysis-(PCA))
     - [Clustering Cryptocurrencies Using K-Means](#Clustering-Cryptocurrencies-Using-K-Means)
     - [Visualizing Cryptocurrencies Results](#Visualizing-Cryptocurrencies-Results)
 - [Summary](#summary)
@@ -27,13 +27,13 @@ The dataset is in a csv file, [crypto_data.csv](). It contains data on different
 This analysis ventures to report the different cryptocurrencies present on the trading market, and how these can be grouped to create a classification system for a new investment by the clients. Since we are taking in raw data and do not have known outcomes for what we are looking for, we apply an unsupervised machine learning model on the input data. The data is preprocessed, undergoes dimensionality reduction using PCA (Principal Components Analysis), and is then clustered using a clustering algorithm - the K-Means algorithm. Lastly, the results are visualized.
 
 ## Results
-### Preprocessing the Data for PCA
+### Preprocessing the Data for Principal Components Analysis (PCA)
 
 ![crypto_df](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/crypto_df.png)
 
 A crypto_df is created by removing the columns not needed and null values in the data. The features are then standardized before running PCA.
 
-### Reducing Data Dimensions Using PCA
+### Reducing Data Dimensions Using Principal Components Analysis (PCA)
 The dimensions are reduced to only 3: "PC 1", "PC 2", and "PC 3", as shown below:
 
 ![pcs_df](https://github.com/SohaT7/Cryptocurrencies/blob/main/Images/pcs_df.png)
