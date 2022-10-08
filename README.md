@@ -18,7 +18,7 @@
 The purpose of this analysis is to aid an investment bank in offering a cryptocurrency investment portfolio to its customers. The bank seeks to find out which cryptocurrencies are available on the trading market and how they can be best grouped together, to create a classification system for this new investment portfolio.
 
 ## About the Dataset:
-The dataset is in a csv file, [crypto_data.csv](). It contains data on different cryptocurrencies. 
+The dataset is in a csv file, [crypto_data.csv](https://github.com/SohaT7/Cryptocurrencies/blob/main/Resources/crypto_data.csv). It contains data on different cryptocurrencies. 
 
 ### Tools Used:
 - Python (Scikit-learn, Plotly, hvPlot, and Pandas libraries)
